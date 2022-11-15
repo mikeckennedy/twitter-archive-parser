@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 
 [project]
-name = "twitter_exit"
+name = "twitter_archive"
 version = "0.0.1"
 authors = [
     { name = "Tim", email = "author@example.com" },
@@ -27,5 +27,5 @@ dependencies = [
 
 
 [project.scripts]
-twitter_exit_markdown = "twitter_exit:parse_export"
-twitter_exit_images = "twitter_exit:download_images"
+twitter_archive_markdown = "twitter_archive:parse_export"
+twitter_archive_images = "twitter_archive:download_images"
